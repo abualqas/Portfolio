@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Alhussain</title>
+</head>
+
+<body>
+    <!--------- Header Section --------->
+    <header >
+        <!-- First navbar -->
+<!-- Main navigation container -->
+<nav 
+class="relative px-10 bg-[#201332] flex w-full flex-nowrap items-center justify-between bg-primary py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:flex-wrap lg:justify-start lg:py-4"
+data-te-navbar-ref>
+<div class="flex w-full flex-wrap items-center justify-between px-3">
+  <div class="mx-2">
+    <a class="text-xl text-neutral-100" href="#">Al</a>
+  </div>
+  <!-- Hamburger button for mobile view -->
+  <button
+    class="block border-0  px-2 text-neutral-300 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+    type="button"
+    data-te-collapse-init
+    data-te-target="#navbarSupportedContent9"
+    aria-controls="navbarSupportedContent9"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <!-- Hamburger icon -->
+    <span class="[&>svg]:w-7">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="h-7 w-7">
+        <path
+          fill-rule="evenodd"
+          d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+          clip-rule="evenodd" />
+      </svg>
+    </span>
+  </button>
+
+  <!-- Collapsible navbar container -->
+  <div
+    class="!visible mt-2 hidden  basis-[100%] lg:mt-0 lg:!flex lg:basis-auto "
+    id="navbarSupportedContent9"
+    data-te-collapse-item>
+    <!-- Left links -->
+    <ul
+      class="list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row gap-9"
+      data-te-navbar-nav-ref>
+      <!-- Home link -->
+      <li
+        class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1"
+        data-te-nav-item-ref>
+        <a
+          class="text-neutral-300 transition duration-200 hover:text-[#8e6cbd] hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+          aria-current="page"
+          href="#home"
+          data-te-nav-link-ref
+          >Home</a
+        >
+      </li>
+      <!-- About link -->
+      <li
+        class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+        data-te-nav-item-ref>
+        <a
+          class="p-0 text-neutral-300 transition duration-200 hover:text-[#8e6cbd] hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+          href="#about"
+          data-te-nav-link-ref
+          >About</a
+        >
+      </li>
+      <!-- My Business link -->
+      <li
+        class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+        data-te-nav-item-ref>
+        <a
+          class="p-0 text-neutral-300 transition duration-200 hover:text-[#8e6cbd] hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+          href="#business"
+          data-te-nav-link-ref
+          >My Business</a
+        >
+      </li>
+      <!-- Contact Me link -->
+      <li
+        class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+        data-te-nav-item-ref>
+        <a
+          class="p-0 text-neutral-300 transition duration-200 hover:text-[#8e6cbd] hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+          href="#contact"
+          data-te-nav-link-ref
+          >Contact Me</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+    </header>
+
+    <!--------- Home Section --------->
+    <section class="home" id="home">
+    <div class="home-content">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Alhussain Essa</h1>
+            <h3>Website <span>Designer.</span></h3>
+            <p>I work my way into creating exceptionally <br> and responsive websites.
+                My dedication to innovation<br> and commitment to user experience defines my path.</p>
+            <div class="button">
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            
+        </div>
+
+        <div class="img-avtar">
+            <img src="./images/avtar.jpg" alt="" >
+        </div>
+       
+    </div>
+    </section>
+
+    <!------------About Section---------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/hello-world-unscreen.gif" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>I'm a software engineering student specializing in web development, and I also work as a content writer for the Huawei Club,
+                 where I create content for student developers. I am a member of the Google Club for Student Developers in the Public Relations Committee.
+                  In addition to my technical roles, I have a creative side, working as a designer. I had the opportunity to participate in a TV show. Moreover, 
+                  I have experience in electronic marketing through social media platforms and excel at creating advertising content. Owner of online stores.
+            </p>
+            
+        </div>
+    </section>
+
+    <!-----------business Section-------------->
+    <section class="business" id="business">
+        <div class="main-text">
+            <h2><span>My </span>Business</h2>
+        </div>
+        <div class="business-content">
+            <div class="box">
+                <h3>TECHNOLOGY STORE</h3>
+                <img src="./images/tech.png" alt="" class="tech">
+                <a href="https://technology-ea.com/" class="btn" target="_blank">Visit</a>
+            </div>
+
+
+            <div class="box">
+                <h3>SEASON STORE</h3>
+                <img src="./images/pnr.png" alt="" class="season">
+                <a href="https://salla.sa/season_sa" class="btn" target="_blank">Visit</a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--------Education Section---------->
+    <section class="education">
+
+        <div class="main-text">
+            <h2><span>My </span>Education</h2>
+        </div>
+        <div class="educatuion-content">
+            <div class="education-box">
+                <h3>Bachelor of Software Engineering</h3>
+                <p>University of Jeddah | Computer Science and Engineering College</p>
+                <h5>2021 - Now</h5>
+
+            </div>
+
+    </section>
+
+    <!------------------Contact section------------>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            
+            <ul class="list">
+                <li>0505399610</li>
+                <li> abualqas16@gmail.com</li>
+            </ul> 
+
+            
+
+            <div class="contact-icons">
+                <a href="https://twitter.com/hso_9i" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/alhussain-essa-4a3711271/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/abualqas" target="_blank"><i class='bx bxl-github'></i></a> 
+            </div>
+
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="name" placeholder="Your Name " required>
+                <input type="email" placeholder="Your Email " required>
+                <input type="number" placeholder="your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+
+        </div>
+    </section>
+
+    <!---------End Section---------->
+    <section class="end">
+        <div class="last-text">
+            <p>© Alhussain Essa. All right reserved</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
